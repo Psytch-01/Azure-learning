@@ -34,6 +34,44 @@ Este repositório reúne meus estudos sobre a plataforma Microsoft Azure. Aqui e
 
 - SaaS (Software as a Service): entrega softwares prontos via internet. O provedor é responsável por toda a estrutura, e o cliente apenas utiliza o serviço. Ex: Microsoft 365.
 
+### → Componentes e arquitetura do Azure  
+O Azure é estruturado com **regiões geográficas**, **zonas de disponibilidade**, **grupos de recursos**, **assinaturas** e **serviços gerenciados**.
+
+A arquitetura é baseada em **distribuição global**, **redundância**, **segurança integrada** e **gestão centralizada** por meio do Azure Resource Manager (ARM).
+
+Os recursos são organizados logicamente para facilitar a governança e o controle de custos.
+
+### → Regiões do Azure  
+**Região** é um conjunto geográfico de datacenters interconectados, onde os serviços do Azure são executados.  
+Exemplos: *Brazil South*, *East US*, *West Europe*.
+
+### → Pares de regiões  
+O Azure organiza algumas regiões em **pares** (*region pairs*) para replicação e recuperação de desastres.  
+Ex: *Brazil South* é pareada com *South Central US*.  
+Os pares garantem atualizações ordenadas e alta disponibilidade entre locais geograficamente próximos.
+
+### → Regiões soberanas  
+São regiões **isoladas da nuvem pública**, criadas para atender requisitos regulatórios e de conformidade específicos.  
+Ex: *Azure Government* (EUA), *Azure China* (operado por parceiro local).
+
+### → Grupo de recursos  
+**Resource Group** é uma unidade lógica que agrupa recursos relacionados de um projeto.  
+Serve para organizar, gerenciar e aplicar políticas de forma centralizada.  
+Ex: VMs, bancos de dados e redes de um mesmo sistema podem estar no mesmo grupo.
+
+### → Tipos de assinaturas no Azure  
+A **assinatura** no Azure é a unidade lógica de cobrança, gerenciamento e organização dos recursos. Por meio dela, é possível distribuir e controlar o acesso de diferentes equipes ou ambientes.
+
+Cada assinatura pode conter múltiplos usuários com diferentes níveis de permissão (via Azure Active Directory), e ser usada para separar:
+
+- Ambientes (produção, desenvolvimento, testes)  
+- Equipes (equipe de dev, equipe de QA, equipe de operações)  
+- Projetos ou departamentos distintos
+
+Isso facilita a **organização**, o **controle de custos** e a **aplicação de políticas específicas** para cada área.
+
+Além disso, uma única conta pode ter acesso a várias assinaturas, e elas podem ser agrupadas em **tenants** para gerenciamento centralizado.
+
 ### → Principais serviços e ferramentas do Azure
 - **Azure Portal**: interface gráfica para gerenciar recursos.
 - **Azure CLI**: ferramenta de linha de comando para automação e administração.
