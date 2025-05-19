@@ -28,11 +28,11 @@ Este repositório reúne meus estudos sobre a plataforma Microsoft Azure. Aqui e
 - **Nuvem híbrida**: combinação entre nuvens públicas e privadas para maior controle e flexibilidade.
 
 ### → Modelos de serviço: IaaS, PaaS e SaaS
-IaaS (Infrastructure as a Service): fornece infraestrutura sob demanda, como VMs, redes e armazenamento. O provedor gerencia o hardware e o cliente gerencia o sistema operacional, apps e dados. Ideal para quem precisa de controle total do ambiente.
+- IaaS (Infrastructure as a Service): fornece infraestrutura sob demanda, como VMs, redes e armazenamento. O provedor gerencia o hardware e o cliente gerencia o sistema operacional, apps e dados. Ideal para quem precisa de controle total do ambiente.
+ 
+- PaaS (Platform as a Service): oferece uma plataforma gerenciada para desenvolvimento e hospedagem de aplicações. O cliente foca apenas na aplicação e nos dados, enquanto o provedor cuida do restante. Indicado para desenvolvimento rápido e escalável.
 
-PaaS (Platform as a Service): oferece uma plataforma gerenciada para desenvolvimento e hospedagem de aplicações. O cliente foca apenas na aplicação e nos dados, enquanto o provedor cuida do restante. Indicado para desenvolvimento rápido e escalável.
-
-SaaS (Software as a Service): entrega softwares prontos via internet. O provedor é responsável por toda a estrutura, e o cliente apenas utiliza o serviço. Ex: Microsoft 365.
+- SaaS (Software as a Service): entrega softwares prontos via internet. O provedor é responsável por toda a estrutura, e o cliente apenas utiliza o serviço. Ex: Microsoft 365.
 
 ### → Principais serviços e ferramentas do Azure
 - **Azure Portal**: interface gráfica para gerenciar recursos.
