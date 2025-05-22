@@ -210,6 +210,47 @@ No contexto corporativo, o PLN ajuda empresas a extrair valor de grandes volumes
 
 Essas ferramentas são altamente escaláveis, com suporte multilíngue e integração facilitada com outros serviços do Azure. Assim, desenvolvedores e empresas conseguem incluir inteligência linguística em suas aplicações de forma segura, eficiente e produtiva.
 
+--- 
+
+### → Inteligência de Documentos e Mineração de Conhecimento
+
+#### Inteligência de Documentos (Document Intelligence)
+
+O Azure oferece soluções avançadas para extrair automaticamente informações relevantes de documentos estruturados e não estruturados, como faturas, recibos, formulários, contratos e muito mais.
+
+- **Azure AI Document Intelligence (antigo Form Recognizer)**: Serviço de **IA aplicada a documentos**, que usa modelos pré-treinados ou personalizados para extrair textos, tabelas, campos-chave e estrutura de documentos.  
+Ideal para automatizar processos manuais e reduzir o tempo de análise de documentos.
+
+Principais recursos:
+- Extração de texto via OCR de alta precisão;
+- Reconhecimento de campos específicos (como valores, datas, IDs);
+- Treinamento com seus próprios documentos;
+- Suporte a múltiplos formatos: PDF, JPG, PNG, entre outros.
+
+Casos de uso incluem:
+- Processamento automático de faturas;
+- Análise de contratos;
+- Digitalização de formulários de entrada de dados.
+
+#### Mineração de Conhecimento
+
+A mineração de conhecimento no Azure está ligada à **capacidade de organizar, explorar e gerar valor a partir de grandes volumes de informação** (estruturada ou não), conectando dados dispersos e promovendo insights automáticos.
+
+Ferramentas relacionadas:
+
+- **Azure AI Search** (anteriormente Azure Cognitive Search): motor de busca inteligente com IA integrada. Pode aplicar análise semântica, reconhecimento de linguagem natural e filtros personalizados em grandes bases de dados.  
+Permite adicionar funcionalidades de busca com compreensão contextual a aplicações, portais ou sistemas internos.
+
+- **Semantic Ranker e Respostas Inteligentes**: Camadas adicionais que enriquecem os resultados da busca com compreensão de intenção e linguagem, otimizando a experiência do usuário com respostas mais relevantes.
+
+- **Integration com o Azure OpenAI + Search**: É possível combinar a capacidade de indexação do AI Search com a linguagem natural do ChatGPT, criando **experiências de pergunta e resposta sobre seus próprios dados**.
+
+Essa combinação permite **conversar com documentos** de forma dinâmica, transformando repositórios em fontes de conhecimento interativo.
+
+---
+
+Essas soluções elevam o potencial de uso de informações armazenadas em documentos, bancos de dados e arquivos, promovendo eficiência, automação e descoberta de conhecimento com apoio da Inteligência Artificial.
+
 ---
 
 ## 📌 Objetivo
