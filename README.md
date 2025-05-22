@@ -134,6 +134,84 @@ Serviço de **PaaS** que permite hospedar zonas DNS e gerenciar nomes de domíni
 
 ---
 
+### → Tipos de Inteligência Artificial (IA)
+
+O Azure oferece uma gama de serviços de IA para diferentes finalidades, que se encaixam em várias categorias. Cada tipo resolve problemas específicos com abordagens distintas:
+
+#### 📈 Machine Learning (Aprendizado de Máquina)
+Permite que sistemas aprendam com dados e façam previsões ou classificações sem serem explicitamente programados.  
+Com o **Azure Machine Learning**, é possível treinar, implantar e monitorar modelos com automação e suporte a diversas linguagens como Python e R.
+
+#### 🗣️ Processamento de Linguagem Natural (PLN)
+Focado em fazer com que máquinas compreendam, interpretem e gerem linguagem humana.  
+Serviços como o **Azure Language Service** permitem detectar sentimentos, extrair palavras-chave, identificar entidades e traduzir idiomas com alta precisão.
+
+#### 🧾 Inteligência de Documentos (Document Intelligence)
+Automatiza a leitura, interpretação e extração de dados estruturados a partir de documentos não estruturados, como PDFs, imagens escaneadas e formulários.  
+O **Azure AI Document Intelligence (antigo Form Recognizer)** é usado para digitalizar e entender faturas, contratos, recibos, entre outros.
+
+#### 🧠 Mineração de Conhecimento
+Relaciona dados dispersos em informações úteis, conectando entidades, padrões e relações entre conteúdos.  
+Com ferramentas como **Azure Cognitive Search**, é possível criar experiências de busca inteligente com filtros, sugestão automática e enriquecimento semântico.
+
+#### 🎨 IA Generativa
+Capaz de criar conteúdo original — como texto, imagem, áudio ou código — a partir de comandos simples.  
+O **Azure OpenAI Service** oferece acesso a modelos como GPT (da OpenAI), permitindo construir assistentes virtuais, geradores de texto, resumos automáticos e soluções criativas personalizadas.
+
+Esses recursos permitem integrar IA em sistemas de forma modular e escalável, sem a necessidade de criar modelos do zero.
+
+---
+
+### → Princípios de IA Responsável
+
+Ao trabalhar com Inteligência Artificial, especialmente em ambientes corporativos e de larga escala como o Azure, é essencial adotar princípios de **IA responsável**. A Microsoft segue uma base ética para o desenvolvimento e uso de IA, visando o impacto positivo da tecnologia na sociedade. Os principais pilares são:
+
+#### ⚖️ Imparcialidade
+A IA deve tomar decisões justas e sem preconceitos. Isso exige atenção especial na coleta, preparo e balanceamento dos dados para evitar vieses que possam prejudicar grupos ou indivíduos. Modelos precisam ser avaliados continuamente quanto à equidade de suas previsões.
+
+#### 🔐 Privacidade e Segurança
+A IA deve proteger a confidencialidade das informações, seguindo leis como a LGPD e o GDPR. Dados pessoais usados para treinar modelos precisam ser anonimizados, armazenados com segurança e acessados apenas quando necessário. A arquitetura da solução também deve garantir proteção contra vazamentos e acessos não autorizados.
+
+#### 🤝 Confiabilidade e Confiança
+Modelos de IA devem funcionar com consistência, mesmo em situações imprevistas. Isso exige testes rigorosos, validação constante e transparência nos limites da tecnologia. O comportamento dos sistemas deve ser previsível e compreensível para os usuários.
+
+#### 🌐 Inclusão
+A IA deve ser desenvolvida com foco na diversidade, atendendo às necessidades de diferentes perfis, idiomas, culturas e capacidades. Um sistema realmente inclusivo considera acessibilidade desde o design, para que mais pessoas possam interagir com ele de forma igualitária.
+
+#### 🔎 Transparência
+Os usuários devem entender como e por que a IA toma determinadas decisões. Isso inclui fornecer explicações claras sobre o funcionamento dos modelos e tornar acessível o raciocínio por trás das recomendações ou classificações feitas pelo sistema.
+
+#### 🧭 Responsabilidade
+Quem cria ou utiliza IA deve ser responsável pelos resultados gerados. Isso significa assumir a supervisão humana, aplicar mecanismos de correção e estar preparado para intervir caso algo saia do controle. A IA é uma ferramenta poderosa, mas não pode substituir o julgamento ético humano.
+
+Esses princípios ajudam a garantir que o uso de IA seja benéfico, confiável e alinhado aos valores humanos — algo fundamental à medida que essas tecnologias se tornam mais presentes na vida real.
+
+---
+
+### → Processamento de Linguagem Natural (PLN) Aprofundado
+
+O **Processamento de Linguagem Natural (PLN)** é uma área da Inteligência Artificial focada em permitir que computadores compreendam, interpretem, analisem e gerem a linguagem humana de forma significativa. Ele é fundamental para construir aplicações como assistentes virtuais, mecanismos de busca, análise de sentimentos, tradutores automáticos, entre outros.
+
+No contexto corporativo, o PLN ajuda empresas a extrair valor de grandes volumes de dados textuais, automatizar interações com clientes e tomar decisões mais rápidas com base em informações não estruturadas.
+
+#### 🧠 Exemplos de tarefas de PLN:
+- **Análise de sentimentos**: entender se uma mensagem tem tom positivo, negativo ou neutro.
+- **Extração de entidades**: identificar nomes de pessoas, locais, datas e outros termos relevantes.
+- **Resumo de textos**: gerar versões reduzidas com as informações principais.
+- **Classificação de tópicos**: categorizar documentos automaticamente com base no conteúdo.
+- **Tradução automática**: converter textos entre diferentes idiomas.
+- **Chatbots e assistentes virtuais**: interagir em linguagem natural com usuários.
+
+#### 🛠️ Ferramentas do Azure para PLN:
+- **Azure AI Language (anteriormente Text Analytics)**: oferece APIs prontas para análise de sentimentos, extração de entidades, detecção de idioma, classificação de texto, entre outros.
+- **Azure OpenAI Service**: acesso a modelos avançados de linguagem, como GPT (usado aqui neste markdown!), para criação de resumos, geração de texto, tradução, reescrita, entre outras tarefas.
+- **Azure Bot Service**: permite criar chatbots inteligentes com suporte a linguagem natural, integrando com o LUIS (Language Understanding Intelligent Service).
+- **Azure Cognitive Search**: utiliza PLN para enriquecer buscas em grandes conjuntos de dados com linguagem natural e inteligência semântica.
+
+Essas ferramentas são altamente escaláveis, com suporte multilíngue e integração facilitada com outros serviços do Azure. Assim, desenvolvedores e empresas conseguem incluir inteligência linguística em suas aplicações de forma segura, eficiente e produtiva.
+
+---
+
 ## 📌 Objetivo
 
 Registrar meu progresso e fixar o conhecimento com base na prática e revisão dos conceitos. Este repositório pode ajudar outros iniciantes a entender os fundamentos da nuvem com Azure.  
