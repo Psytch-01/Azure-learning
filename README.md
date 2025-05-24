@@ -4,6 +4,13 @@ Este repositório reúne meus estudos sobre a plataforma Microsoft Azure. Aqui e
 
 ---
 
+## 📌 Objetivo
+
+Registrar meu progresso e fixar o conhecimento com base na prática e revisão dos conceitos. Este repositório pode ajudar outros iniciantes a entender os fundamentos da nuvem com Azure.  
+Além de servir como Lab do Bootcamp Bradesco, na DIO.
+
+---
+
 ## 📘 Conteúdos estudados
 
 ### → Conceitos básicos da computação em nuvem
@@ -252,11 +259,58 @@ Essa combinação permite **conversar com documentos** de forma dinâmica, trans
 Essas soluções elevam o potencial de uso de informações armazenadas em documentos, bancos de dados e arquivos, promovendo eficiência, automação e descoberta de conhecimento com apoio da Inteligência Artificial.
 
 ---
+---
 
-## 📌 Objetivo
+### → IA Generativa e Modelos de Linguagem
 
-Registrar meu progresso e fixar o conhecimento com base na prática e revisão dos conceitos. Este repositório pode ajudar outros iniciantes a entender os fundamentos da nuvem com Azure.  
-Além de servir como Lab do Bootcamp Bradesco, na DIO.
+#### Modelos de Linguagem de Grande Escala (LLMs)
+
+Modelos de Linguagem de Grande Escala, conhecidos como **LLMs (Large Language Models)**, são redes neurais treinadas com enormes volumes de texto para entender, gerar e manipular linguagem humana. Esses modelos são a base da **IA generativa**, permitindo que sistemas criem textos, códigos, resumos, traduções, entre outras tarefas linguísticas.
+
+Esses modelos funcionam com base em dois componentes principais:
+
+- **Codificador (Encoder)**: responsável por entender o contexto de entrada — por exemplo, uma pergunta ou um comando. Ele transforma o texto em vetores numéricos (tokens) que representam semanticamente as palavras.
+- **Decodificador (Decoder)**: usa esses vetores para gerar uma resposta coerente e contextualizada.
+
+Outros conceitos fundamentais incluem:
+
+- **Tokenização**: o texto é dividido em partes menores (tokens), como palavras ou subpalavras, que são processadas pelos modelos.
+- **Inserções (Insertions)**: os modelos podem completar ou inserir texto em pontos específicos, mantendo o contexto antes e depois.
+- **Mecanismo de Atenção (Attention)**: técnica que permite ao modelo focar nas partes mais relevantes do texto de entrada, capturando relações contextuais mesmo entre palavras distantes no texto.
+
+Esse conjunto de técnicas permite à IA gerar conteúdo de maneira natural e útil, com base em comandos simples dados pelos usuários.
+
+---
+
+### → Copilots: IA integrada às aplicações
+
+**Copilots** são aplicações de IA generativa integradas a ferramentas do dia a dia, como editores de texto, planilhas, plataformas de desenvolvimento, sistemas de atendimento, entre outros.
+
+Eles atuam como **assistentes contextuais**, capazes de:
+
+- Responder perguntas com base nos dados da aplicação.
+- Gerar e resumir conteúdos.
+- Automatizar tarefas repetitivas.
+- Aumentar a produtividade e reduzir erros operacionais.
+
+Um exemplo notável é o **Microsoft 365 Copilot**, que combina LLMs com dados da organização (e-mails, documentos, chats) para fornecer respostas personalizadas e relevantes.
+
+---
+
+### → Azure OpenAI Service
+
+O **Azure OpenAI Service** disponibiliza os modelos da OpenAI (como GPT-4, Codex e DALL·E) com a infraestrutura e a segurança da nuvem da Microsoft.
+
+Com ele, é possível integrar **IA generativa de alto desempenho** às aplicações empresariais, mantendo o controle de privacidade e governança sobre os dados.
+
+Entre suas funcionalidades, estão:
+
+- Geração de texto, resumo, tradução e classificação.
+- Geração e explicação de código.
+- Análise semântica de dados e documentos.
+- Criação de chatbots com linguagem natural.
+
+Esse serviço também pode ser combinado com **Azure Cognitive Search**, **Azure AI Studio** e **Azure Machine Learning**, ampliando as possibilidades de construção de soluções inteligentes e escaláveis.
 
 ---
 
